@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "noImplicitAny": true,
+        "jsx": "preserve",
+        "suppressImplicitAnyIndexErrors": false,
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": false,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "rootDir": ".",
+        "baseUrl": "."
+    },
+    "files": [
+        "node_modules/typescript/lib/lib.dom.d.ts",
+        "node_modules/typescript/lib/lib.es2016.d.ts",
+        "typings/index.d.ts",
+        "index.tsx"
+    ],
+    "include": [
+        "**/*.ts",
+        "**/*.tsx"
+    ]
+}
