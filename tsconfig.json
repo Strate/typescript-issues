@@ -5,7 +5,7 @@
         "jsx": "preserve",
         "suppressImplicitAnyIndexErrors": false,
         "sourceMap": true,
-        "allowSyntheticDefaultImports": false,
+        "allowSyntheticDefaultImports": true,
         "experimentalDecorators": true,
         "moduleResolution": "node",
         "rootDir": ".",
