@@ -16,4 +16,4 @@ index.tsx(3,19): error TS2339: Property 'SomeEnum' does not exist on type 'typeo
 
 index.tsx(5,10): error TS2604: JSX element type 'SomeClass' does not have any construct or call signatures.
 ```
-but correctly compiles if disable option ``
+but correctly compiles if disable option `allowSyntheticDefaultImports`
